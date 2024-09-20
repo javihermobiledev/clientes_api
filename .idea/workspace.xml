@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b4bed93-9dce-4b66-bca0-e643287b9c84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/ClientesApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/ClienteAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/ClienteNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/create-tables.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/insert-data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/controller/ClienteControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/repository/ClienteRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/service/ClienteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2m7VrRDyiq5Vfa0oMq7PMSqhNjv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ClientesApiApplication.executor": "Run",
+    "Application.Ejecutar API_Clientes.executor": "Debug",
+    "JUnit.ClienteControllerTest.executor": "Run",
+    "JUnit.ClienteRepositoryTest.executor": "Run",
+    "JUnit.ClienteRepositoryTest.testSaveCliente.executor": "Run",
+    "JUnit.ClienteServiceTest.executor": "Run",
+    "JUnit.com.ejemplo.clientesapi.controller in clientes-api.executor": "Run",
+    "JUnit.com.ejemplo.clientesapi.repository in clientes-api.executor": "Run",
+    "JUnit.com.ejemplo.clientesapi.service in clientes-api.executor": "Run",
+    "JUnit.service in clientes-api.executor": "Run",
+    "Maven.clientes-api [clean].executor": "Run",
+    "Maven.clientes-api [compile].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/javie/IdeaProjects/clientes-api/pom.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.User-Defined File Types"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ejemplo.clientesapi.service" />
+      <recent name="com.ejemplo.clientesapi.repository" />
+      <recent name="com.ejemplo.clientesapi.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Ejecutar API_Clientes">
+    <configuration name="Ejecutar API_Clientes" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.ClientesApiApplication" />
+      <module name="clientes-api" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clientes-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejemplo.clientesapi.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.ejemplo.clientesapi.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.controller.ClienteControllerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="clientes-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejemplo.clientesapi.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.ejemplo.clientesapi.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.repository.ClienteRepositoryTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteRepositoryTest.testSaveCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clientes-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejemplo.clientesapi.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.ejemplo.clientesapi.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.repository.ClienteRepositoryTest" />
+      <option name="METHOD_NAME" value="testSaveCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clientes-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejemplo.clientesapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.ejemplo.clientesapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.service.ClienteServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="clientes-api" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="clientes-api" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="service in clientes-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clientes-api" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Ejecutar API_Clientes" />
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.ClienteControllerTest" />
+      <item itemvalue="JUnit.ClienteRepositoryTest" />
+      <item itemvalue="JUnit.ClienteRepositoryTest.testSaveCliente" />
+      <item itemvalue="JUnit.ClienteServiceTest" />
+      <item itemvalue="JUnit.service in clientes-api" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClienteRepositoryTest" />
+        <item itemvalue="JUnit.service in clientes-api" />
+        <item itemvalue="JUnit.ClienteRepositoryTest.testSaveCliente" />
+        <item itemvalue="JUnit.ClienteServiceTest" />
+        <item itemvalue="JUnit.ClienteControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b4bed93-9dce-4b66-bca0-e643287b9c84" name="Changes" comment="" />
+      <created>1726427801070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726427801070</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clientes_api$com_ejemplo_clientesapi_service_in_clientes_api.ic" NAME="com.ejemplo.clientesapi.service in clientes-api Coverage Results" MODIFIED="1726640269015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.ejemplo.clientesapi.service.*</FILTER>
+    </SUITE>
+  </component>
+</project>
