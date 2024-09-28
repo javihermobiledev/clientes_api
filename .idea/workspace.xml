@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b4bed93-9dce-4b66-bca0-e643287b9c84" name="Changes" comment="" />
+    <list default="true" id="5b4bed93-9dce-4b66-bca0-e643287b9c84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/exception/ClienteAlreadyExistsExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/ClientesApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/ClientesApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/ClienteAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/ClienteAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/ClienteNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/ClienteNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/repository/ClienteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/service/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ejemplo/clientesapi/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scripts/create-tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scripts/create-tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/scripts/insert-data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scripts/insert-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/controller/ClienteControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/controller/ClienteControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/repository/ClienteRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/repository/ClienteRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/service/ClienteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/service/ClienteServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-test.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,40 +58,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.ClientesApiApplication.executor": "Run",
-    "Application.Ejecutar API_Clientes.executor": "Debug",
-    "JUnit.ClienteControllerTest.executor": "Run",
-    "JUnit.ClienteRepositoryTest.executor": "Run",
-    "JUnit.ClienteRepositoryTest.testSaveCliente.executor": "Run",
-    "JUnit.ClienteServiceTest.executor": "Run",
-    "JUnit.com.ejemplo.clientesapi.controller in clientes-api.executor": "Run",
-    "JUnit.com.ejemplo.clientesapi.repository in clientes-api.executor": "Run",
-    "JUnit.com.ejemplo.clientesapi.service in clientes-api.executor": "Run",
-    "JUnit.service in clientes-api.executor": "Run",
-    "Maven.clientes-api [clean].executor": "Run",
-    "Maven.clientes-api [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/javie/IdeaProjects/clientes-api/pom.xml",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.User-Defined File Types"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ClientesApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ejecutar API_Clientes.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteAlreadyExistsExceptionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteAlreadyExistsExceptionTest.testClienteAlreadyExistsException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteControllerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteControllerTest.testActualizarCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteControllerTest.testCrearCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteControllerTest.testEliminarCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteControllerTest.testGetClienteById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteControllerTest.testObtenerClientePorId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteControllerTest.testObtenerClientePorIdNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteRepositoryTest.testActualizarCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteRepositoryTest.testBuscarClientePorEmail.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteRepositoryTest.testCrearCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteRepositoryTest.testEliminarCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteRepositoryTest.testEliminarClienteNoExistente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteRepositoryTest.testObtenerClientePorId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteRepositoryTest.testSaveCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.testActualizarCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.testEliminarCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.testGetClienteByIdNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.testGuardarCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.testObtenerClientePorId.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.testObtenerClientePorIdNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.testguardarCliente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClienteServiceTest.testobtenerClientePorIdNotFound.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.clientesapi in clientes-api.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.com.ejemplo.clientesapi.controller in clientes-api.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.com.ejemplo.clientesapi.repository in clientes-api.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.com.ejemplo.clientesapi.service in clientes-api.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.service in clientes-api.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.clientes-api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.clientes-api [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ClientesApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/javie/IdeaProjects/clientes-api/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2413793&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\javie\IdeaProjects\clientes-api\src\test\resources" />
+      <recent name="C:\Users\javie\IdeaProjects\clientes-api\src\test\java\com\ejemplo\clientesapi\service" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ejemplo.clientesapi.service" />
       <recent name="com.ejemplo.clientesapi.repository" />
       <recent name="com.ejemplo.clientesapi.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejecutar API_Clientes">
+  <component name="RunManager" selected="Spring Boot.ClientesApiApplication">
     <configuration name="Ejecutar API_Clientes" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.ClientesApiApplication" />
       <module name="clientes-api" />
@@ -76,25 +139,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="clientes-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ejemplo.clientesapi.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="PACKAGE_NAME" value="com.ejemplo.clientesapi.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.controller.ClienteControllerTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="ClienteRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration name="ClienteRepositoryTest.testActualizarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="clientes-api" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +154,13 @@
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="PACKAGE_NAME" value="com.ejemplo.clientesapi.repository" />
       <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.repository.ClienteRepositoryTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testActualizarCliente" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteRepositoryTest.testSaveCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteRepositoryTest.testBuscarClientePorEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="clientes-api" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +172,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="PACKAGE_NAME" value="com.ejemplo.clientesapi.repository" />
       <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.repository.ClienteRepositoryTest" />
-      <option name="METHOD_NAME" value="testSaveCliente" />
+      <option name="METHOD_NAME" value="testBuscarClientePorEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,6 +192,24 @@
       <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.service.ClienteServiceTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteServiceTest.testActualizarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clientes-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ejemplo.clientesapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="com.ejemplo.clientesapi.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ejemplo.clientesapi.service.ClienteServiceTest" />
+      <option name="METHOD_NAME" value="testActualizarCliente" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,36 +234,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="service in clientes-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientesApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="clientes-api" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java/com/ejemplo/clientesapi/service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ejemplo.clientesapi.ClientesApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Ejecutar API_Clientes" />
+      <item itemvalue="HTTP Request.generated-requests | #1" />
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.ClienteControllerTest" />
-      <item itemvalue="JUnit.ClienteRepositoryTest" />
-      <item itemvalue="JUnit.ClienteRepositoryTest.testSaveCliente" />
+      <item itemvalue="JUnit.ClienteRepositoryTest.testActualizarCliente" />
+      <item itemvalue="JUnit.ClienteRepositoryTest.testBuscarClientePorEmail" />
       <item itemvalue="JUnit.ClienteServiceTest" />
-      <item itemvalue="JUnit.service in clientes-api" />
+      <item itemvalue="JUnit.ClienteServiceTest.testActualizarCliente" />
+      <item itemvalue="Spring Boot.ClientesApiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClienteRepositoryTest" />
-        <item itemvalue="JUnit.service in clientes-api" />
-        <item itemvalue="JUnit.ClienteRepositoryTest.testSaveCliente" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="JUnit.ClienteServiceTest" />
-        <item itemvalue="JUnit.ClienteControllerTest" />
+        <item itemvalue="JUnit.ClienteServiceTest.testActualizarCliente" />
+        <item itemvalue="JUnit.ClienteRepositoryTest.testBuscarClientePorEmail" />
+        <item itemvalue="JUnit.ClienteRepositoryTest.testActualizarCliente" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -207,13 +277,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726427801070</updated>
+      <workItem from="1726859194029" duration="124000" />
+      <workItem from="1726859327287" duration="4095000" />
+      <workItem from="1726891711135" duration="1737000" />
+      <workItem from="1726893473842" duration="2785000" />
+      <workItem from="1726896276239" duration="2600000" />
+      <workItem from="1726898908313" duration="6935000" />
+      <workItem from="1726905882962" duration="3215000" />
+      <workItem from="1726909124907" duration="101000" />
+      <workItem from="1726909253618" duration="333000" />
+      <workItem from="1727075263667" duration="1852000" />
+      <workItem from="1727077152916" duration="2903000" />
+      <workItem from="1727132392936" duration="592000" />
+      <workItem from="1727133002052" duration="14060000" />
+      <workItem from="1727160835222" duration="2695000" />
+      <workItem from="1727163607741" duration="677000" />
+      <workItem from="1727164300319" duration="1755000" />
+      <workItem from="1727187157306" duration="4105000" />
+      <workItem from="1727191304223" duration="14103000" />
+      <workItem from="1727218164584" duration="7753000" />
+      <workItem from="1727225960251" duration="3444000" />
+      <workItem from="1727229799025" duration="2476000" />
+      <workItem from="1727285785305" duration="16498000" />
+      <workItem from="1727311570865" duration="5503000" />
+      <workItem from="1727326153521" duration="5284000" />
+      <workItem from="1727367631976" duration="24174000" />
+      <workItem from="1727399423147" duration="1096000" />
+      <workItem from="1727400535985" duration="8495000" />
+      <workItem from="1727446559383" duration="3990000" />
+      <workItem from="1727474148148" duration="8288000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clientes_api$ClienteServiceTest_testObtenerClientePorId.ic" NAME="ClienteServiceTest.testObtenerClientePorId Coverage Results" MODIFIED="1727079395435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.ejemplo.clientesapi.service.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/clientes_api$com_ejemplo_clientesapi_service_in_clientes_api.ic" NAME="com.ejemplo.clientesapi.service in clientes-api Coverage Results" MODIFIED="1726640269015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>com.ejemplo.clientesapi.service.*</FILTER>
     </SUITE>

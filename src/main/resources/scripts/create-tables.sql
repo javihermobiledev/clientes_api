@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS cliente (
     email VARCHAR(255) NOT NULL,
     telefono VARCHAR(50),
     direccion TEXT,
-    fechaNacimiento DATE,
-    fechaRegistro DATETIME,
+    fecha_nacimiento DATE,
+    fecha_registro DATETIME,
     activo BOOLEAN
 );

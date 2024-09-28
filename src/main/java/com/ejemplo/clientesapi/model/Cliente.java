@@ -1,11 +1,11 @@
 
 package com.ejemplo.clientesapi.model;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import jakarta.persistence.Column;
+
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
@@ -16,27 +16,45 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(nullable = false)
+    @NotBlank(message = "El nombre no puede estar vacío")
+    @Size(max = 255, message = "El nombre no puede tener más de 255 caracteres")
     private String nombre;
 
-    @Column(nullable = false, unique = true)
+    @NotBlank(message = "El correo electrónico no puede estar vacío")
+    @Email(message = "El correo electrónico debe ser válido")
     private String email;
 
+    @Size(max = 50, message = "El teléfono no puede tener más de 50 caracteres")
     private String telefono;
+
     private String direccion;
 
+    @NotNull(message = "La fecha de nacimiento no puede ser nula")
     @Column(name = "fecha_nacimiento")
     private LocalDate fechaNacimiento;
 
+    @NotNull(message = "La fecha de registro no puede ser nula")
     @Column(name = "fecha_registro")
     private LocalDateTime fechaRegistro;
 
-    @Column(nullable = false)
+
     private Boolean activo;
 
-    // Getters y Setters
+    public Cliente( Long id, String nombre, String email, String telefono, String direccion, LocalDate fechaNacimiento, LocalDateTime fechaRegistro, Boolean activo) {
+        this.id = id;
+        this.nombre = nombre;
+        this.email = email;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.fechaNacimiento = fechaNacimiento;
+        this.fechaRegistro = fechaRegistro;
+        this.activo = activo;
+    }
+    public Cliente() {
+    }
 
+
+    // Getters y Setters
     public Long getId() {
         return id;
     }

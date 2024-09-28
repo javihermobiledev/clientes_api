@@ -20,9 +20,20 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     public ResponseEntity<Object> handleClienteNotFoundException(ClienteNotFoundException ex, WebRequest request) {
         Map<String, Object> body = new HashMap<>();
         body.put("timestamp", LocalDateTime.now());
-        body.put("message", "Cliente no encontrado");
+        body.put("message", ex.getMessage());
+        body.put("clienteId", ex.getId());
 
         return new ResponseEntity<>(body, HttpStatus.NOT_FOUND);
+    }
+    // Manejador para ClienteAlreadyExistsException
+    @ExceptionHandler(ClienteAlreadyExistsException.class)
+    public ResponseEntity<Object> handleClienteAlreadyExistsException(ClienteAlreadyExistsException ex, WebRequest request) {
+        Map<String, Object> body = new HashMap<>();
+        body.put("timestamp", LocalDateTime.now());
+        body.put("message", ex.getMessage());
+        body.put("clienteId", ex.getId());
+
+        return new ResponseEntity<>(body, HttpStatus.CONFLICT);  // Código de estado 409 (Conflict)
     }
 
     // Manejo de excepción para errores generales
