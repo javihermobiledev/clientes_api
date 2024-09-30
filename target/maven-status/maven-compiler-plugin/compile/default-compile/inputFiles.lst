@@ -1,8 +1,0 @@
-D:\Development\clientes_api\src\main\java\com\ejemplo\clientesapi\ClientesApiApplication.java
-D:\Development\clientes_api\src\main\java\com\ejemplo\clientesapi\controller\ClienteController.java
-D:\Development\clientes_api\src\main\java\com\ejemplo\clientesapi\exception\ClienteAlreadyExistsException.java
-D:\Development\clientes_api\src\main\java\com\ejemplo\clientesapi\exception\ClienteNotFoundException.java
-D:\Development\clientes_api\src\main\java\com\ejemplo\clientesapi\exception\GlobalExceptionHandler.java
-D:\Development\clientes_api\src\main\java\com\ejemplo\clientesapi\model\Cliente.java
-D:\Development\clientes_api\src\main\java\com\ejemplo\clientesapi\repository\ClienteRepository.java
-D:\Development\clientes_api\src\main\java\com\ejemplo\clientesapi\service\ClienteService.java
