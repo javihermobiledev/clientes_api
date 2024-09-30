@@ -1,15 +1,17 @@
 package com.ejemplo.clientesapi.service;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.ejemplo.clientesapi.exception.ClienteAlreadyExistsException;
 import com.ejemplo.clientesapi.exception.ClienteNotFoundException;
 import com.ejemplo.clientesapi.model.Cliente;
 import com.ejemplo.clientesapi.repository.ClienteRepository;
-import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
-import java.util.List;
+import jakarta.validation.Valid;
 
 @Service
 public class ClienteService {
